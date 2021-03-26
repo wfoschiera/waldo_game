@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <title class="title">Onde esta Wally?</title>
+  </head>
+  <body>
+    <div id="floating-panel">
+      <input onclick="clearMarkers();" type="button" value="Esconder tentativas" />
+      <input onclick="showMarkers();" type="button" value="Mostrar tentativas" />
+      <input onclick="restartGame();" type="button" value="Recomeçar jogo." />
+      <input onclick="addWaldoMarker();" type="button" value="Mostrar Wally." />
+    </div>
+
+    <!--   <body onload="initialize()"> -->
+    <div id="map" style="height: 500px"></div>
+    <div class="container">
+    <h1 class=title>Onde está Wally?</h1>
+    <h3 class= instructions>Encontre a localização de Wally clicando sobre o mapa. Para cumprir essa missão, você terá 10 tentativas.
+    <p> A cada tentativa, será informado se o Wally está mais a leste/oeste ou norte/sul em relação ao seu palpite. </p>
+    <p>Por último, o Wally está em algum país da América do Sul e há uma tolerância de 500 km em relação a localização de Wally e seu palpite, para não tornar a tarefa impossível!. Boa sorte!</p></h3>
+  </div>
+
+    <script async
+      src="https://maps.googleapis.com/maps/api/js?libraries=&v=weekly"></script>
+  </body>
+</html>
