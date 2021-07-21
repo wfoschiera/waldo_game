@@ -1,8 +1,8 @@
 
 ## Where is Waldo?
 
-A simple game using google maps api.
+A game using google maps api, hosted on codepen.
 
 Waldo is somewhere in the map. Click on it and try to find Waldo.
 
-Game hosted on [Codepen](https://codepen.io/wfoschiera/pen/wvgKRJZ)
+[Access here](https://codepen.io/wfoschiera/pen/wvgKRJZ)
